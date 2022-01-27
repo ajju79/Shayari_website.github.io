@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://media.istockphoto.com/photos/old-quill-pen-and-old-paper-blank-sheet-and-vintage-inkwell-on-wooden-picture-id1287428937?b=1&k=20&m=1287428937&s=170667a&w=0&h=T6FuJ0jVc9I-ggDh0pHIC64cL3KFhtf-E1yaBEWfZ68=');
+      background-size: auto;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      color: black;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto
+
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="C:\Users\capei\Documents\html and css projects\Shayari website\profile.png">
+    <h1>Ajay's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best Shayari</a></li>
+      <li><a href="#">Worst Shayari</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Intezaar</h2>
+    <p>Hum Aapki Har Cheez Se Pyar Kar Lenge,
+Aapki Har Baat Par Aitbaar Kar Lenge,
+Bas Ek Bar Keh Do Ki Tum Sirf Mere Ho,
+Hum Zindagi Bhar AapKa Intezaar Kar Lenge..</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Milna Mukaddar Mein Likha Nahi</h2>
+    <p>Jinka Milna Mukaddar Mein Likha Nahi Hota,
+Unse Mohabbat Kasam Se Ba-Kamaal Hoti Hai.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Sad Shayari, Pehli Mohabbat Ka Anzaam</h2>
+    <p>Har Tanha Raat Mein Ek Naam Yaad Aata Hai,
+Kabhi Subhah To Kabhi Shaam Yaad Aata Hai,
+Jab Sochte Hain Kar Lein Dobara Mohabbat,
+Fir Pehli Mohabbat Ka Anzaam Yaad Aata Hai.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
